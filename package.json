@@ -1,0 +1,23 @@
+{
+  "name": "capi-gatsby",
+  "version": "1.0.0",
+  "private": true,
+  "description": "capi-gatsby",
+  "author": "Gaël Weiler",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^3.6.2",
+    "gatsby-source-contentful": "^5.7.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
