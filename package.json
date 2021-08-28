@@ -4,8 +4,11 @@
   "private": true,
   "description": "capi-gatsby",
   "author": "Gaël Weiler",
+  "license": "MIT",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "demo",
+    "contentful"
   ],
   "scripts": {
     "develop": "gatsby develop",
@@ -15,7 +18,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@contentful/rich-text-types": "^14.1.2",
+    "@contentful/rich-text-types": "^15.1.0",
     "gatsby": "^3.6.2",
     "gatsby-image": "^3.7.1",
     "gatsby-plugin-image": "^1.7.1",
@@ -35,5 +38,9 @@
     "prettier": "^2.3.1",
     "tailwindcss": "^2.1.4"
   },
-  "prettier": "@digitregroup/prettier-config"
+  "prettier": "@digitregroup/prettier-config",
+  "volta": {
+    "node": "14.17.5",
+    "yarn": "1.22.11"
+  }
 }
