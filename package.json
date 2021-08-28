@@ -1,8 +1,8 @@
 {
   "name": "capi-gatsby",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "private": true,
-  "description": "capi-gatsby",
+  "description": "Repository used to test quickly Gatsby with Contentful.",
   "author": "Gaël Weiler",
   "license": "MIT",
   "keywords": [
@@ -15,7 +15,9 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "prettify": "prettier \"./src/pages/**/*.{js,ts,jsx,tsx}\" \"./src/components/**/*.{js,ts,jsx,tsx}\" --write --loglevel=warn",
+    "prettify:check": "prettier \"./src/pages/**/*.{js,ts,jsx,tsx}\" \"./src/components/**/*.{js,ts,jsx,tsx}\" --check --loglevel=warn"
   },
   "dependencies": {
     "@contentful/rich-text-types": "^15.1.0",

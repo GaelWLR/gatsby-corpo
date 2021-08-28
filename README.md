@@ -14,4 +14,4 @@ yarn start
 
 ## ⚙️ Online demo
 
-Deploy with Vercel free tier at [gatsby-corpo.vercel.app](https://gatsby-corpo-fy0ir3n1d-gaelwlr.vercel.app/)
+Deploy with Vercel free tier at [gatsby-corpo.vercel.app](https://gatsby-corpo.vercel.app/)
